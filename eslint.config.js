@@ -9,7 +9,15 @@ export default antfu(
   },
   {
     rules: {
-      // overrides
+      'vue/html-self-closing': ['warn', {
+        html: {
+          void: 'always',
+          normal: 'never',
+          component: 'always',
+        },
+        svg: 'always',
+        math: 'always',
+      }],
     },
   },
 )
