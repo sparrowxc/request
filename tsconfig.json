@@ -4,10 +4,12 @@
     "jsx": "preserve",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "useDefineForClassFields": true,
+    "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
 
+    "types": ["vite/client"],
     /* Bundler mode */
     "allowImportingTsExtensions": true,
 
